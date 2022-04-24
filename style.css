@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(206, 140, 19, 0.842);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7vw;
+    overflow: hidden;
+}
+main h1{
+    position: absolute;
+    z-index: 9999;
+}
+main p{
+    position: absolute;
+    bottom: 4vh;
+    font-size: 4vh;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    z-index: 9999;
+}
+#arrows{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+}
+.arrow{
+    width: 80px;
+    height: 80px;
+    background-image: url("rocket_800_wht-removebg-preview.png");
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 888;
+}
+nav{
+    width: 20%;
+    height: 15%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%,0%);
+    justify-content: space-between;
+    z-index: 23;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vh;
+    /* align-items: center; */
+}
+
